@@ -24,7 +24,7 @@ $result = mysqli_query($conn, $sql);
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin Panel - Table Presensi</title>
+    <title>Admin - Table Presensi</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -186,7 +186,7 @@ if (mysqli_num_rows($result) > 0) {
                                     <?php
 } //end of while
 
-    ?>
+                                    ?>
 
                                 </tbody>
                             </table>
