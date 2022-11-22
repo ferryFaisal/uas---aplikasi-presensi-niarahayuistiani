@@ -68,7 +68,7 @@ $result = mysqli_query($conn, $sql);
                     aria-haspopup="true" aria-expanded="false">
                     <?php
 require 'connect_db.php';
-$sql2 = "SELECT * FROM presensi where email= '$_SESSION[login]'";
+$sql2 = "SELECT * FROM user where email= '$_SESSION[login]'";
 $result2 = mysqli_query($conn, $sql2);
 $cek2 = mysqli_num_rows($result2);
 
@@ -198,9 +198,9 @@ if (mysqli_num_rows($result) > 0) {
 mysqli_close($conn);
 ?>
                         </div>
-                        <!-- </div>
+                        </div>
                     <div class="card-footer small text-muted">Updated Tuesday at 11:59 PM</div>
-                </div> -->
+                </div>
 
                     </div>
                 </div>

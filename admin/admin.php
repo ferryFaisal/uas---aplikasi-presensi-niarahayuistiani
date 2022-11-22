@@ -142,7 +142,7 @@ if ($cek2 > 0) {
 
         <!-- Icon Cards-->
         <div class="row">
-          <div class="col-l-3 col-sm-4 mb-1">
+          <div class="col-xl-3 col-sm-6 mb-3">
             <div class="card text-white bg-primary o-hidden h-100">
               <div class="card-body">
                 <div class="card-body-icon">
@@ -160,7 +160,7 @@ if ($cek2 > 0) {
           </div>
           </div>
           <div class="row">
-          <div class="col-l-3 col-sm-4 mb-2">
+          <div class="col-xl-3 col-sm-6 mb-3">
             <div class="card text-white bg-warning o-hidden h-100">
               <div class="card-body">
                 <div class="card-body-icon">
@@ -178,7 +178,7 @@ if ($cek2 > 0) {
           </div>
           </div>
           <div class="row">
-          <div class="col-l-3 col-sm-4 mb-1">
+          <div class="col-xl-3 col-sm-6 mb-3">
             <div class="card text-white bg-info o-hidden h-100">
               <div class="card-body">
                 <div class="card-body-icon">

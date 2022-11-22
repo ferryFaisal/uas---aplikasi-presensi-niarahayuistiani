@@ -24,7 +24,7 @@ $result = mysqli_query($conn, $sql);
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin Panel - Table Users</title>
+    <title>Admin Panel - Table User</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -138,7 +138,7 @@ if ($cek2 > 0) {
                     <li class="breadcrumb-item active">Tables</li>
                 </ol>
                 <ol>
-                    <a href="/uas---aplikasi-presensi-niarahayuistiani/register.php"><button type="button" class="btn btn-primary">Tambah
+                    <a href="/uas---aplikasi-presensi-niarahayuistiani/register.php"><button type="button" class="btn btn-primary">Tambahkan
                             User</button></a>
                 </ol>
 
@@ -183,13 +183,13 @@ if (mysqli_num_rows($result) > 0) {
 
                                     </tr>
                                     <?php
-} //end of while
+                                            } //end of while
 
-    ?>
+                                    ?>
 
                                 </tbody>
-                            </table>
-                            <?php
+                                </table>
+                                <?php
 
 } else {
     echo "0 results";
@@ -197,18 +197,10 @@ if (mysqli_num_rows($result) > 0) {
 mysqli_close($conn);
 ?>
                         </div>
-                        <!-- </div>
-                    <div class="card-footer small text-muted">Updated tuesday at 11:59 PM</div>
-                </div> -->
-
-
-
-                    </div>
-
-
-
-
-
+                        </div>
+                    <div class="card-footer small text-muted">Updated Tuesday at 11:59 PM</div>
+                </div>
+                 </div>
                 </div>
 
                 <footer class="sticky-footer">
